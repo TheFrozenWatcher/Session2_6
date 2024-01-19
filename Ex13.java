@@ -11,7 +11,7 @@ class EmailValidator {
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         System.out.println("Nhập địa chỉ email cần kiểm tra");
-        String email = sc.next();
+        String email = sc.nextLine();
         if (isValidEmail(email)) {
             System.out.println("Địa chỉ email hợp lệ.");
         } else {
